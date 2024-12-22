@@ -1,0 +1,8 @@
+{
+    "title": "Popup Image Downloader",
+    "checkboxLabel": "First photo? (Checked: 3rd photo, Unchecked: 4th photo)",
+    "buttonText": "Download",
+    "notEnoughImages": "Not enough images on the page.",
+    "downloadFailed": "Failed to download the image."
+  }
+  

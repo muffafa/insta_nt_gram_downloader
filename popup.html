@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title id="title">Popup Image Downloader</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        width: 300px;
+        padding: 20px;
+        margin: 0;
+      }
+      label {
+        display: block;
+        margin-bottom: 15px;
+        font-size: 16px;
+      }
+      button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #0056b3;
+      }
+      select {
+        margin-bottom: 15px;
+        padding: 5px;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <select id="languageSelect">
+      <option value="en">English</option>
+      <option value="tr">Türkçe</option>
+    </select>
+
+    <!-- Separate the checkbox from its text span so we don't overwrite the input -->
+    <label>
+      <input type="checkbox" id="imageCheckbox" />
+      <span id="checkboxLabelText"
+        >First photo? (Checked: 3rd photo, Unchecked: 4th photo)</span
+      >
+    </label>
+
+    <button id="downloadBtn">Download</button>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "title": "Popup Fotoğraf İndirici",
+  "checkboxLabel": "İlk fotoğraf mı? (Açık: 3. foto, Kapalı: 4. foto)",
+  "buttonText": "İndir",
+  "notEnoughImages": "Sayfada yeterince fotoğraf yok.",
+  "downloadFailed": "Fotoğraf indirilemedi."
+}
