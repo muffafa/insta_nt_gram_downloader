@@ -4,5 +4,6 @@
   "buttonText": "Download",
   "notEnoughImages": "Not enough images on the page.",
   "downloadFailed": "Failed to download the image.",
-  "warningText": "Warning: Please open the post by refreshing the page, not by opening it in modal. This issue will be addressed in a future update. The confirmation box for the first photo question will be removed and the program will automatically perform this function."
+  "warningText": "Warning: Please open the post by refreshing the page, not by opening it in modal. This issue will be addressed in a future update. The confirmation box for the first photo question will be removed and the program will automatically perform this function.",
+  "sourceCode": "Star ⭐ on GitHub (Source Code)"
 }

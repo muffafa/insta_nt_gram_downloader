@@ -4,5 +4,6 @@
   "buttonText": "İndir",
   "notEnoughImages": "Sayfada yeterince fotoğraf yok.",
   "downloadFailed": "Fotoğraf indirilemedi.",
-  "warningText": "Uyarı: Lütfen postu modal olarak değil sayfayı yenileyerek açın. Bu sorun, gelecekteki bir güncellemede ele alınacaktır. İlk fotoğraf mı sorusunun onay kutusu kaldırılacak ve otomatik olarak program bu işelevi yerine getirecektir."
+  "warningText": "Uyarı: Lütfen postu modal olarak değil sayfayı yenileyerek açın. Bu sorun, gelecekteki bir güncellemede ele alınacaktır. İlk fotoğraf mı sorusunun onay kutusu kaldırılacak ve otomatik olarak program bu işelevi yerine getirecektir.",
+  "sourceCode": "GitHub'da ⭐ Yıldızla! (Kaynak Kodu)"
 }

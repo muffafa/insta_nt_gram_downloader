@@ -37,6 +37,14 @@
         font-size: 12px;
         margin-top: 10px;
       }
+      #sourceCodeLink {
+        color: #007bff;
+        font-size: 12px;
+        margin-top: 10px;
+        display: block;
+        float: right;
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
@@ -44,6 +52,15 @@
       <option value="en">English</option>
       <option value="tr">Türkçe</option>
     </select>
+
+    <!-- Github source code of the extension -->
+    <a
+      id="sourceCodeLink"
+      href="
+      https://github.com/muffafa/insta_nt_gram_downloader"
+      target="_blank"
+      >Star ⭐ on GitHub (Source Code)</a
+    >
 
     <!-- Separate the checkbox from its text span so we don't overwrite the input -->
     <label>
@@ -58,6 +75,7 @@
       box for the first photo question will be removed and the program will
       automatically perform this function.
     </p>
+
     <button id="downloadBtn">Download</button>
 
     <script src="popup.js"></script>

@@ -20,6 +20,7 @@ function applyTranslations(language) {
   document.getElementById("checkboxLabelText").textContent = t.checkboxLabel; // Only update the span
   document.getElementById("downloadBtn").textContent = t.buttonText;
   document.getElementById("warningText").textContent = t.warningText;
+  document.getElementById("sourceCodeLink").textContent = t.sourceCode;
 }
 
 // Initialize popup
