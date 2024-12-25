@@ -1,8 +1,8 @@
 {
-    "title": "Popup Image Downloader",
-    "checkboxLabel": "First photo? (Checked: 3rd photo, Unchecked: 4th photo)",
-    "buttonText": "Download",
-    "notEnoughImages": "Not enough images on the page.",
-    "downloadFailed": "Failed to download the image."
-  }
-  
+  "title": "Popup Image Downloader",
+  "checkboxLabel": "Is it first photo of that post? (Checked: Yes, Unchecked: No) This feature is added because there may be multiple photos in the post and the code works differently after 1st photo.",
+  "buttonText": "Download",
+  "notEnoughImages": "Not enough images on the page.",
+  "downloadFailed": "Failed to download the image.",
+  "warningText": "Warning: Please open the post by refreshing the page, not by opening it in modal. This issue will be addressed in a future update. The confirmation box for the first photo question will be removed and the program will automatically perform this function."
+}

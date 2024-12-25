@@ -32,6 +32,11 @@
         padding: 5px;
         font-size: 14px;
       }
+      #warningText {
+        color: red;
+        font-size: 12px;
+        margin-top: 10px;
+      }
     </style>
   </head>
   <body>
@@ -43,11 +48,16 @@
     <!-- Separate the checkbox from its text span so we don't overwrite the input -->
     <label>
       <input type="checkbox" id="imageCheckbox" />
-      <span id="checkboxLabelText"
-        >First photo? (Checked: 3rd photo, Unchecked: 4th photo)</span
-      >
+      <span id="checkboxLabelText">First photo?</span>
     </label>
 
+    <!-- Warning about they should open the post in normal web page not in modal. If they refresh the page they can achive it! Extension will be upgraded to handle this issue in the future. Also the first photo checkbox will be removed and handled autmatically.-->
+    <p id="warningText">
+      Warning: Please open the post by refreshing the page, not by opening it in
+      modal. This issue will be addressed in a future update. The confirmation
+      box for the first photo question will be removed and the program will
+      automatically perform this function.
+    </p>
     <button id="downloadBtn">Download</button>
 
     <script src="popup.js"></script>

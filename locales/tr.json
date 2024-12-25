@@ -1,7 +1,8 @@
 {
   "title": "Popup Fotoğraf İndirici",
-  "checkboxLabel": "İlk fotoğraf mı? (Açık: 3. foto, Kapalı: 4. foto)",
+  "checkboxLabel": "Postun ilk fotoğrafı mı? (İşaretli: Evet, İşaretsiz: Hayır) Bu özellik postun birden fazla fotoğrafı olabileceği için ve kodun çalışması 1 den sonraki fotoğraflar farklı olduğundan dolayı mecburen eklenmiştir.",
   "buttonText": "İndir",
   "notEnoughImages": "Sayfada yeterince fotoğraf yok.",
-  "downloadFailed": "Fotoğraf indirilemedi."
+  "downloadFailed": "Fotoğraf indirilemedi.",
+  "warningText": "Uyarı: Lütfen postu modal olarak değil sayfayı yenileyerek açın. Bu sorun, gelecekteki bir güncellemede ele alınacaktır. İlk fotoğraf mı sorusunun onay kutusu kaldırılacak ve otomatik olarak program bu işelevi yerine getirecektir."
 }
